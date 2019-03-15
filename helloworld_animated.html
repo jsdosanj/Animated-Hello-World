@@ -1,0 +1,47 @@
+<!DOCTYPE html> <html>
+<head>
+<title>Jasvant Singh Dosanjh - CSI2520 - Assignment 1</title>
+<meta name="author" content="Jasvant Singh Dosanjh" />
+<meta name="description" content="Login/signup page for term project" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head> 
+
+<style>
+.container {
+    /* We will define the width, height and padding of the container */
+    /* The text-align to center */
+    width: 400px;
+    height: 60px;
+    padding: 32px;
+    text-align: center;
+
+    /* Use the animation `blink` to repeat infinitely for a time period of 2.5s*/
+    animation-duration: 2.5s;           
+    animation-iteration-count: infinite;
+    animation-direction: normal;        
+    animation-name: blink;              
+    
+    /* The same can be written shorthand as     */
+    /* --------------------------------------   */
+    /* animation: 2.5s infinite normal blink;   */
+}
+@keyframes blink {
+    0%, 100% {              /* Defines the properties at these frames */
+        background: #333;
+        color: white;
+    }
+
+    50% {                   /* Defines the properties at these frames */
+        background: #ccc;
+        color: black;
+        border-radius: 48px;
+    }
+}
+</style>
+
+<body>
+<div class="container">
+    <h3> Hello World ! </h3>
+</div>
+</body>
+</html>
